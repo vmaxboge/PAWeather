@@ -6,8 +6,8 @@
 //  Copyright (c) 2015年 pingan. All rights reserved.
 //
 
-#import "PALifeTableViewItem.h"
+#import "PALifeTableViewItemBean.h"
 
-@implementation PALifeTableViewItem
+@implementation PALifeTableViewItemBean
 
 @end

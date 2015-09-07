@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "AFNetworking.h"
 @interface PALifeDetailViewController : UIViewController
 
-@property (weak, nonatomic) NSString *data;
+@property (nonatomic, copy) NSString *data;
 
 @end

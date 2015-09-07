@@ -10,16 +10,16 @@
 
 @interface PALifeTableViewCell : UITableViewCell
 
-@property (strong ,nonatomic) UILabel *divideLabel;
+@property (nonatomic, strong) UILabel *divideLabel;
 
-@property (strong, nonatomic) UILabel *typeLabel;
+@property (nonatomic, strong) UILabel *typeLabel;
 
-@property (strong ,nonatomic) UILabel *divideLabel2;
+@property (nonatomic, strong) UILabel *divideLabel2;
 
-@property (strong, nonatomic) UILabel *titleLabel;
+@property (nonatomic, strong) UILabel *titleLabel;
 
-@property (strong, nonatomic) UILabel *contentLabel;
+@property (nonatomic, strong) UILabel *contentLabel;
 
-@property (strong, nonatomic) UIImageView *descriptionImageView;
+@property (nonatomic, strong) UIImageView *descriptionImageView;
 
 @end

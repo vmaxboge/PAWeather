@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F74663EC42857D1A2ACBF44 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E5BC5BD7DEF8E9A6B00DFD /* libPods.a */; };
 		AF0DB4721B95330A0081E6F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0DB4711B95330A0081E6F8 /* main.m */; };
 		AF0DB4751B95330A0081E6F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0DB4741B95330A0081E6F8 /* AppDelegate.m */; };
 		AF0DB4781B95330A0081E6F8 /* PAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0DB4771B95330A0081E6F8 /* PAMainViewController.m */; };
@@ -16,7 +17,7 @@
 		AF0DB48C1B95330A0081E6F8 /* PAWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0DB48B1B95330A0081E6F8 /* PAWeatherTests.m */; };
 		AF4C69611B9ABFDB00B31F56 /* recommend.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4C69601B9ABFDB00B31F56 /* recommend.png */; };
 		AF4C69641B9AC78C00B31F56 /* PALifeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C69631B9AC78C00B31F56 /* PALifeTableViewCell.m */; };
-		AF4C69671B9ACEDA00B31F56 /* PALifeTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C69661B9ACEDA00B31F56 /* PALifeTableViewItem.m */; };
+		AF4C69671B9ACEDA00B31F56 /* PALifeTableViewItemBean.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C69661B9ACEDA00B31F56 /* PALifeTableViewItemBean.m */; };
 		AF4C696D1B9AD31300B31F56 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF4C69681B9AD31300B31F56 /* 0.jpg */; };
 		AF4C696E1B9AD31300B31F56 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF4C69691B9AD31300B31F56 /* 1.jpg */; };
 		AF4C696F1B9AD31300B31F56 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF4C696A1B9AD31300B31F56 /* 2.jpg */; };
@@ -46,11 +47,11 @@
 		AF8EE4621B95DE0100E7FCFA /* forecast_recomend.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8EE4611B95DE0100E7FCFA /* forecast_recomend.png */; };
 		AF8EE4641B95DE4400E7FCFA /* forecast_share_weather.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8EE4631B95DE4400E7FCFA /* forecast_share_weather.png */; };
 		AF8EE4661B95F0EF00E7FCFA /* advertisement.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8EE4651B95F0EF00E7FCFA /* advertisement.png */; };
-		AF8EE46A1B95F57800E7FCFA /* PAWeatherDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8EE4691B95F57800E7FCFA /* PAWeatherDescription.m */; };
+		AF8EE46A1B95F57800E7FCFA /* PAWeatherDescriptionBean.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8EE4691B95F57800E7FCFA /* PAWeatherDescriptionBean.m */; };
 		AF9757E61B959A6D00D4FE2D /* PAForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9757E51B959A6D00D4FE2D /* PAForecastViewController.m */; };
 		AF9757E91B95A09100D4FE2D /* forecast_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF9757E81B95A09100D4FE2D /* forecast_bg.jpg */; };
 		AF9757EB1B95A8CF00D4FE2D /* forecast_alarm.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9757EA1B95A8CF00D4FE2D /* forecast_alarm.png */; };
-		AFFF07EB1B9AA9DE005940F1 /* PAFunctionList.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFF07EA1B9AA9DE005940F1 /* PAFunctionList.m */; };
+		AFFF07EB1B9AA9DE005940F1 /* PAForecastOptionItemBean.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFF07EA1B9AA9DE005940F1 /* PAForecastOptionItemBean.m */; };
 		AFFF07EE1B9AB0FA005940F1 /* PALifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFF07ED1B9AB0FA005940F1 /* PALifeViewController.m */; };
 		AFFF07F01B9AB36D005940F1 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = AFFF07EF1B9AB36D005940F1 /* location.png */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F20B7FE2D4B841337D46502 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		46E532ADFBB8D921CF64276F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		66E5BC5BD7DEF8E9A6B00DFD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0DB46C1B95330A0081E6F8 /* PAWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0DB4701B95330A0081E6F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF0DB4711B95330A0081E6F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,8 +86,8 @@
 		AF4C69601B9ABFDB00B31F56 /* recommend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recommend.png; sourceTree = "<group>"; };
 		AF4C69621B9AC78C00B31F56 /* PALifeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PALifeTableViewCell.h; sourceTree = "<group>"; };
 		AF4C69631B9AC78C00B31F56 /* PALifeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PALifeTableViewCell.m; sourceTree = "<group>"; };
-		AF4C69651B9ACEDA00B31F56 /* PALifeTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PALifeTableViewItem.h; sourceTree = "<group>"; };
-		AF4C69661B9ACEDA00B31F56 /* PALifeTableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PALifeTableViewItem.m; sourceTree = "<group>"; };
+		AF4C69651B9ACEDA00B31F56 /* PALifeTableViewItemBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PALifeTableViewItemBean.h; sourceTree = "<group>"; };
+		AF4C69661B9ACEDA00B31F56 /* PALifeTableViewItemBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PALifeTableViewItemBean.m; sourceTree = "<group>"; };
 		AF4C69681B9AD31300B31F56 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
 		AF4C69691B9AD31300B31F56 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		AF4C696A1B9AD31300B31F56 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
@@ -123,14 +127,14 @@
 		AF8EE4611B95DE0100E7FCFA /* forecast_recomend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forecast_recomend.png; sourceTree = "<group>"; };
 		AF8EE4631B95DE4400E7FCFA /* forecast_share_weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forecast_share_weather.png; sourceTree = "<group>"; };
 		AF8EE4651B95F0EF00E7FCFA /* advertisement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = advertisement.png; sourceTree = "<group>"; };
-		AF8EE4681B95F57800E7FCFA /* PAWeatherDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAWeatherDescription.h; sourceTree = "<group>"; };
-		AF8EE4691B95F57800E7FCFA /* PAWeatherDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAWeatherDescription.m; sourceTree = "<group>"; };
+		AF8EE4681B95F57800E7FCFA /* PAWeatherDescriptionBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAWeatherDescriptionBean.h; sourceTree = "<group>"; };
+		AF8EE4691B95F57800E7FCFA /* PAWeatherDescriptionBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAWeatherDescriptionBean.m; sourceTree = "<group>"; };
 		AF9757E41B959A6D00D4FE2D /* PAForecastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAForecastViewController.h; sourceTree = "<group>"; };
 		AF9757E51B959A6D00D4FE2D /* PAForecastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAForecastViewController.m; sourceTree = "<group>"; };
 		AF9757E81B95A09100D4FE2D /* forecast_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forecast_bg.jpg; sourceTree = "<group>"; };
 		AF9757EA1B95A8CF00D4FE2D /* forecast_alarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forecast_alarm.png; sourceTree = "<group>"; };
-		AFFF07E91B9AA9DE005940F1 /* PAFunctionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFunctionList.h; sourceTree = "<group>"; };
-		AFFF07EA1B9AA9DE005940F1 /* PAFunctionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFunctionList.m; sourceTree = "<group>"; };
+		AFFF07E91B9AA9DE005940F1 /* PAForecastOptionItemBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAForecastOptionItemBean.h; sourceTree = "<group>"; };
+		AFFF07EA1B9AA9DE005940F1 /* PAForecastOptionItemBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAForecastOptionItemBean.m; sourceTree = "<group>"; };
 		AFFF07EC1B9AB0FA005940F1 /* PALifeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PALifeViewController.h; sourceTree = "<group>"; };
 		AFFF07ED1B9AB0FA005940F1 /* PALifeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PALifeViewController.m; sourceTree = "<group>"; };
 		AFFF07EF1B9AB36D005940F1 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 				AF7946F61B969DD800E10B74 /* UIKit.framework in Frameworks */,
 				AF7946F41B969DC500E10B74 /* CoreGraphics.framework in Frameworks */,
 				AF7946F21B969DB200E10B74 /* Foundation.framework in Frameworks */,
+				1F74663EC42857D1A2ACBF44 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +173,8 @@
 				AF0DB46E1B95330A0081E6F8 /* PAWeather */,
 				AF0DB4881B95330A0081E6F8 /* PAWeatherTests */,
 				AF0DB46D1B95330A0081E6F8 /* Products */,
+				F2B24F27F465E220A669F56A /* Pods */,
+				BF017B1AF29BF3459DE080D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -276,12 +283,12 @@
 		AF8EE4671B95F50700E7FCFA /* PAModel */ = {
 			isa = PBXGroup;
 			children = (
-				AF8EE4681B95F57800E7FCFA /* PAWeatherDescription.h */,
-				AF8EE4691B95F57800E7FCFA /* PAWeatherDescription.m */,
-				AFFF07E91B9AA9DE005940F1 /* PAFunctionList.h */,
-				AFFF07EA1B9AA9DE005940F1 /* PAFunctionList.m */,
-				AF4C69651B9ACEDA00B31F56 /* PALifeTableViewItem.h */,
-				AF4C69661B9ACEDA00B31F56 /* PALifeTableViewItem.m */,
+				AF8EE4681B95F57800E7FCFA /* PAWeatherDescriptionBean.h */,
+				AF8EE4691B95F57800E7FCFA /* PAWeatherDescriptionBean.m */,
+				AFFF07E91B9AA9DE005940F1 /* PAForecastOptionItemBean.h */,
+				AFFF07EA1B9AA9DE005940F1 /* PAForecastOptionItemBean.m */,
+				AF4C69651B9ACEDA00B31F56 /* PALifeTableViewItemBean.h */,
+				AF4C69661B9ACEDA00B31F56 /* PALifeTableViewItemBean.m */,
 			);
 			name = PAModel;
 			sourceTree = "<group>";
@@ -312,6 +319,23 @@
 			name = PAImage;
 			sourceTree = "<group>";
 		};
+		BF017B1AF29BF3459DE080D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66E5BC5BD7DEF8E9A6B00DFD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2B24F27F465E220A669F56A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46E532ADFBB8D921CF64276F /* Pods.debug.xcconfig */,
+				3F20B7FE2D4B841337D46502 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -319,9 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF0DB48F1B95330A0081E6F8 /* Build configuration list for PBXNativeTarget "PAWeather" */;
 			buildPhases = (
+				08E25236E60036E293C772D4 /* Check Pods Manifest.lock */,
 				AF0DB4681B95330A0081E6F8 /* Sources */,
 				AF0DB4691B95330A0081E6F8 /* Frameworks */,
 				AF0DB46A1B95330A0081E6F8 /* Resources */,
+				1B010C590B3537F4D67801CF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -426,6 +452,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08E25236E60036E293C772D4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1B010C590B3537F4D67801CF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF0DB4681B95330A0081E6F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -434,14 +493,14 @@
 				AF0DB4781B95330A0081E6F8 /* PAMainViewController.m in Sources */,
 				AF7946EC1B969D7600E10B74 /* PNBarChart.m in Sources */,
 				AF9757E61B959A6D00D4FE2D /* PAForecastViewController.m in Sources */,
-				AF4C69671B9ACEDA00B31F56 /* PALifeTableViewItem.m in Sources */,
+				AF4C69671B9ACEDA00B31F56 /* PALifeTableViewItemBean.m in Sources */,
 				AF7946F01B969D7600E10B74 /* PNLineChart.m in Sources */,
 				AF7946FC1B96A9A600E10B74 /* PAForecastCollectionViewCell.m in Sources */,
 				AF4C69641B9AC78C00B31F56 /* PALifeTableViewCell.m in Sources */,
 				AFFF07EE1B9AB0FA005940F1 /* PALifeViewController.m in Sources */,
 				AF7946EE1B969D7600E10B74 /* PNChartLabel.m in Sources */,
-				AF8EE46A1B95F57800E7FCFA /* PAWeatherDescription.m in Sources */,
-				AFFF07EB1B9AA9DE005940F1 /* PAFunctionList.m in Sources */,
+				AF8EE46A1B95F57800E7FCFA /* PAWeatherDescriptionBean.m in Sources */,
+				AFFF07EB1B9AA9DE005940F1 /* PAForecastOptionItemBean.m in Sources */,
 				AF7946ED1B969D7600E10B74 /* PNChart.m in Sources */,
 				AF7946EB1B969D7600E10B74 /* PNBar.m in Sources */,
 				AF4C697A1B9B005B00B31F56 /* PALifeDetailViewController.m in Sources */,
@@ -573,6 +632,7 @@
 		};
 		AF0DB4901B95330A0081E6F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E532ADFBB8D921CF64276F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PAWeather/Info.plist;
@@ -583,6 +643,7 @@
 		};
 		AF0DB4911B95330A0081E6F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F20B7FE2D4B841337D46502 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PAWeather/Info.plist;

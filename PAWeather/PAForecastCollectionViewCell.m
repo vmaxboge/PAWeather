@@ -10,11 +10,14 @@
 
 @implementation PAForecastCollectionViewCell
 
- - (id)initWithFrame:(CGRect)frame{
+ - (id)initWithFrame:(CGRect)frame
+{
     self = [super initWithFrame:frame];
-    if (self){
+    if (self)
+    {
         self.forecastCellImageView = [[UIImageView alloc]initWithFrame:CGRectMake(26, 20, 48, 48)];
         [self addSubview:self.forecastCellImageView];
+        
         
         self.forecastCellLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 68, 100, 32)];
         self.forecastCellLabel.textColor = [UIColor whiteColor];

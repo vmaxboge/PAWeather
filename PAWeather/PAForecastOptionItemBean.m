@@ -6,12 +6,8 @@
 //  Copyright (c) 2015年 pingan. All rights reserved.
 //
 
-#import "PAFunctionList.h"
+#import "PAForecastOptionItemBean.h"
 
-@implementation PAFunctionList
-
-@synthesize functionListImageName;
-
-@synthesize functionListDescription;
+@implementation PAForecastOptionItemBean
 
 @end

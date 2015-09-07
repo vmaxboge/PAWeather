@@ -10,8 +10,8 @@
 
 @interface PAForecastCollectionViewCell : UICollectionViewCell
 
-@property (strong, nonatomic) UIImageView *forecastCellImageView;
+@property (nonatomic, strong) UIImageView *forecastCellImageView;
 
-@property (strong, nonatomic) UILabel *forecastCellLabel;
+@property (nonatomic, strong) UILabel *forecastCellLabel;
 
 @end

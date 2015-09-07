@@ -8,15 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-#import "PAWeatherDescription.h"
+#import "PAWeatherDescriptionBean.h"
 #import "PNChart.h"
 #import "PAForecastCollectionViewCell.h"
-#import "PAFunctionList.h"
+#import "PAForecastOptionItemBean.h"
 #import "PALocationViewController.h"
 #import "PAAdvertisementViewController.h"
 #import "AppDelegate.h"
+
 @interface PAForecastViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate,UIAlertViewDelegate>
 
-@property (weak, nonatomic) IBOutlet UICollectionView *forecastCollectionView;
+@property (nonatomic, strong) IBOutlet UICollectionView *forecastCollectionView;
+
+@property (nonatomic, strong) NSMutableArray *optionList;
 
 @end

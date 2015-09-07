@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 
 #import "PALifeTableViewCell.h"
-#import "PALifeTableViewItem.h"
+#import "PALifeTableViewItemBean.h"
 #import "PALifeDetailViewController.h"
+
 @interface PALifeViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
+@property (nonatomic, strong) NSMutableArray *lifeTableViewItems;
 @end

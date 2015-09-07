@@ -10,26 +10,32 @@
 
 @implementation PALocationViewController
 
+
 #pragma mark - Life Cycle
-- (void)viewDidLoad{
+
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     UILabel *locationLabel = [[UILabel alloc]initWithFrame:CGRectMake(127, 30, 120, 20)];
     locationLabel.text = @"城市管理页面";
+    [self.view addSubview:locationLabel];
+    
     
     UIButton *backButton = [[UIButton alloc]initWithFrame:CGRectMake(10, 30, 60, 20)];
     [backButton setTitle:@"< 返回" forState:UIControlStateNormal];
     [backButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
     [backButton addTarget:self action:@selector(backButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
-    
-    [self.view addSubview:locationLabel];
     [self.view addSubview:backButton];
     self.view.backgroundColor = [UIColor whiteColor];
 }
 
+
 #pragma mark - Action
 
-- (void)backButtonClicked:(UIButton *)sender{
 
+- (void)backButtonClicked:(UIButton *)sender
+{
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 @end

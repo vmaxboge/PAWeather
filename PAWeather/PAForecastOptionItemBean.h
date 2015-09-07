@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PAFunctionList : NSObject
+@interface PAForecastOptionItemBean : NSObject
 
-@property (weak, nonatomic) NSString *functionListImageName;
+@property (nonatomic, copy) NSString *optionListImageName;
 
-@property (weak, nonatomic) NSString *functionListDescription;
+@property (nonatomic, copy) NSString *optionListDescription;
 
 @end
